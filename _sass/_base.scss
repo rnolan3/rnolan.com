@@ -1,0 +1,123 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: $background-color;
+  color: $text-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  margin: 0;
+  padding: 2em;
+  padding-bottom: $content-padding-bottom;
+
+  @include media-query(670px) {
+    padding-left: $content-padding-left;
+    padding-top: $content-padding-top;
+  }
+}
+
+section {
+  padding: 2em;
+}
+
+article {
+  max-width: $content-width;
+  padding-bottom: 1em;
+}
+
+header {
+  margin-bottom: 3em;
+
+  h1,
+  h2 {
+    margin: 0;
+  }
+}
+
+hgroup {
+  h1,
+  h2 {
+    display: inline-block;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 1.2em;
+
+  a,
+  a:hover {
+    border-bottom: 1px dotted rgba($text-color, .25);
+    color: $text-color;
+  }
+}
+
+h2 {
+  color: $grey-color-dark;
+  font-size: .8em;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+h4 {
+  color: $grey-color;
+  font-size: .8em;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+a {
+  border-bottom: 1px dotted rgba($text-color, .25);
+  color: $grey-color;
+  text-decoration: none;
+  transition: color 120ms, border 120ms;
+
+  &:hover {
+    border-bottom-color: $text-color;
+    color: lighten($grey-color, 15%);
+
+    .arrow:after {
+      margin-left: 15px;
+    }
+  }
+
+  .arrow:after {
+    content: '→';
+    display: inline-block;
+    font-size: .9em;
+    margin-left: 10px;
+    transition: margin-left 200ms;
+    vertical-align: middle;
+  }
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  padding-top: $content-padding-top;
+  width: 100%;
+}

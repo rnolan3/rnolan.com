@@ -1,0 +1,37 @@
+.point {
+  margin-bottom: 2em;
+  margin-left: 2em;
+  position: relative;
+
+  &:before {
+    border-top: 1px solid $text-color;
+    content: '';
+    display: block;
+    left: -2em;
+    position: absolute;
+    top: .75em;
+    width: 1em;
+  }
+}
+
+.point-heading {
+  margin: 0;
+
+  h3 {
+    margin: 0;
+  }
+
+  a {
+    color: $text-color;
+  }
+}
+
+.point-description {
+  color: $grey-color-light;
+  margin-top: 0;
+}
+
+.point-external-link {
+  font-size: .8em;
+  text-transform: uppercase;
+}

@@ -1,0 +1,11 @@
+{
+  {
+    "extends": "rackt"
+  },
+  "rules": {
+    "comma-dangle": 0,
+    "space-before-function-paren": [1, "always"],
+    "func-names": 0,
+    "max-len": [2, 80, 4]
+  }
+}

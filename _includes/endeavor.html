@@ -1,0 +1,13 @@
+<div class="endeavor point">
+  <hgroup class="endeavor-heading point-heading">
+    <h3>{{ endeavor.title}}{% if endeavor.archived %} &mdash; <i>archived</i>{% endif %}</h3>
+  </hgroup>
+  <p class="endeavor-description point-description">
+    {{ endeavor.description }}<br />
+  </p>
+  {% if endeavor.url %}
+  <a class="point-external-link" href="{{ endeavor.url }}" title="Visit {{ endeavor.title }}" target="_blank">
+    Visit {{ endeavor.title }}<span class="arrow"></span>
+  </a>
+  {% endif %}
+</div>

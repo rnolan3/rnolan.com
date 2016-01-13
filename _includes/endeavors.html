@@ -1,0 +1,8 @@
+<section>
+  {% include heading.html heading='Endeavors' %}
+  <div class="endeavors">
+    {% for endeavor in site.endeavors %}
+      {% include endeavor.html %}
+    {% endfor %}
+  </div>
+</section>

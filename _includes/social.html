@@ -1,0 +1,8 @@
+<section>
+  {% include heading.html heading='Connect' %}
+  <ul>
+  {% for network in site.social_networks %}
+    {% include social-line-item.html %}
+  {% endfor %}
+  </ul>
+</section>

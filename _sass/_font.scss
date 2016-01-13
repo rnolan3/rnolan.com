@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'museosans';
+  src: url('/assets/museosans_300-webfont.eot'); /* IE9 Compat Modes */
+  src: url('/assets/museosans_300-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/museosans_300-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/assets/museosans_300-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/assets/museosans_300-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/assets/museosans_300-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
