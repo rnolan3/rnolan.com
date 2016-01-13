@@ -27,24 +27,15 @@ $content-padding-top:     4em;
 $content-padding-bottom:  4em;
 $content-padding-left:    10em;
 
-$on-palm:          600px;
-$on-laptop:        800px;
+$tablet-breakpoint:       500px;
+$desktop-breakpoint:      1000px;
 
 
-
-// Use media queries like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
 @mixin media-query($device) {
     @media screen and (min-width: $device) {
         @content;
     }
 }
-
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
