@@ -1,4 +1,5 @@
-html {
+html,
+body {
   margin: 0;
   padding: 0;
 }
@@ -9,11 +10,13 @@ body {
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
-  margin: 0;
-  padding: 2em;
   padding-bottom: $content-padding-bottom;
 
-  @include media-query(670px) {
+  @include media-query($tablet-breakpoint) {
+    padding: 2em;
+  }
+
+  @include media-query($desktop-breakpoint) {
     padding-left: $content-padding-left;
     padding-top: $content-padding-top;
   }
@@ -40,7 +43,9 @@ header {
 hgroup {
   h1,
   h2 {
-    display: inline-block;
+    @include media-query($tablet-breakpoint) {
+      display: inline-block;
+    }
   }
 }
 
