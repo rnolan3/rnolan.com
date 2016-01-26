@@ -18,6 +18,9 @@ social_networks:
   name: Linkedin
   profile_id: rnolan3
   url: "https://www.linkedin.com/in/"
+-
+  name: 'Email'
+  url: "mailto:hello@rnolan.com"
 
 # Endeavors
 endeavors:
