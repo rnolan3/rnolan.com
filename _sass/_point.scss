@@ -1,7 +1,11 @@
 .point {
-  margin-bottom: 2em;
   margin-left: 2em;
+  margin-bottom: 1em;
   position: relative;
+
+  &:not(li) {
+    margin-bottom: 2em;
+  }
 
   &:before {
     border-top: 1px solid $text-color;
