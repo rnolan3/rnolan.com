@@ -32,7 +32,7 @@ endeavors:
 -
   title: StickyList
   url: "https://github.com/rnolan3/sticky-list"
-  description: An agnostic javascript module.
+  description: A framework agnostic javascript module.
 -
   title: DOM Destroyer
   archived: true,
