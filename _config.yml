@@ -26,6 +26,10 @@ social_networks:
 # Endeavors
 endeavors:
 -
+  title: Customer Direct
+  url: "http://customerdirect.com/"
+  description: Super top-secret stuff. Report back.
+-
   title: Draw It to Know It
   url: "https://drawittoknowit.com/"
   description: A learning tool for the medical sciences.
