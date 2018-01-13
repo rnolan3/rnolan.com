@@ -35,6 +35,7 @@ endeavors:
   description: A learning tool for the medical sciences.
 -
   title: StickyList
+  archived: true,
   url: "https://github.com/rnolan3/sticky-list"
   description: A framework agnostic javascript module.
 -
@@ -44,6 +45,7 @@ endeavors:
   description: Experiemental game that explored OO programming with javascript.
 -
   title: Noboleis Vineyards
+  archived: true,
   url: "http://noboleisvineyards.com/"
   description: A family owned vineyard in Augusta, MO
 
